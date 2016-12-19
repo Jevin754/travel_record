@@ -5,7 +5,7 @@ A simple tool to record your footprint using Django and ClustrMaps
  1. [Django](https://www.djangoproject.com/)  
  Install:  
  ```bash
-pip install Django
+ pip install Django
  ```
  2. [ClustrMaps](https://clustrmaps.com/)  
  Register an account on it. Then Choose `Get Map` to get your script.  
