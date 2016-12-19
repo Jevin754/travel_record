@@ -16,13 +16,13 @@ Clone this repo to your server:
 ```bash
 git clone https://github.com/vra/travel_record.git
 ```
-Change the password and script:
-   	Including the 7th line in login/views.py:
+Change the password and script:  
+Including the 7th line in `login/views.py`:
 ```bash
 # file at REPO_ROOT/login/views.py, line 7
 7  your_password = 'put_your_password_here' 
 ```
- and 9th line in templates/success.html:
+ and 9th line in `templates/success.html`:
 ```bash
 # file at  REPO_ROOT/templates/success.html, line 10
 9  <!-- put your script here!-->
