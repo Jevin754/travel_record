@@ -32,5 +32,5 @@ Run server like this:
 ```bash
 python manage.py runserver 0.0.0.0:8000
 ```
- Change the port to your target port.  
+ Change `8000` to your target port.  
  Then visit the id:port in a broswer, enter your password, and you will see your footprint.
