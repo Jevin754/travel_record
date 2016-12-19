@@ -14,23 +14,23 @@ pip install Django
 # Install
 Clone this repo to your server:
 ```bash
-	git clone https://github.com/vra/travel_record.git
+git clone https://github.com/vra/travel_record.git
 ```
 Change the password and script:
    	Including the 7th line in login/views.py:
 ```bash
-	# file at REPO_ROOT/login/views.py, line 7
-	7  your_password = 'put_your_password_here' 
+# file at REPO_ROOT/login/views.py, line 7
+7  your_password = 'put_your_password_here' 
 ```
  and 9th line in templates/success.html:
 ```bash
-	# file at  REPO_ROOT/templates/success.html, line 10
- 	9  <!-- put your script here!-->
- 	10 <!-- end of your script --> 
+# file at  REPO_ROOT/templates/success.html, line 10
+9  <!-- put your script here!-->
+10 <!-- end of your script --> 
 ```
 Run server like this:
 ```bash
-	python manage.py runserver 0.0.0.0:8000
+python manage.py runserver 0.0.0.0:8000
 ```
  Change the port to your target port.  
  Then visit the id:port in a broswer, enter your password, and you will see your footprint.
