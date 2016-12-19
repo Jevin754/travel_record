@@ -12,11 +12,11 @@ pip install Django
  NOTE: there are two types of scripts of ClustrMaps. But some ICPs only support the second type. So you have try it by youself.
 
 # Install
- 1. Clone this repo to your server:
+1. Clone this repo to your server:
 ```bash
 	git clone https://github.com/vra/travel_record.git
 ```
- 2. Change the password and script:
+2. Change the password and script:
    	Including the 7th line in login/views.py:
 ```bash
 	# file at REPO_ROOT/login/views.py, line 7
@@ -28,7 +28,7 @@ pip install Django
  	9  <!-- put your script here!-->
  	10 <!-- end of your script --> 
 ```
- 3. Run server like this:
+3. Run server like this:
 ```bash
 	python manage.py runserver 0.0.0.0:8000
 ```
