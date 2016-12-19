@@ -2,12 +2,12 @@
 A simple tool to record your footprint using Django and ClustrMaps
 
 # Requirements
- 1. [Django](https://www.djangoproject.com/)
+ 1. [Django](https://www.djangoproject.com/)  
  Install:
  ```bash
  pip install Django
  ```
- 2. [ClustrMaps](https://clustrmaps.com/)
+ 2. [ClustrMaps](https://clustrmaps.com/)  
  Register an account on it. Then Choose `Get Map` to get your script.  
  NOTE: there are two types of scripts of ClustrMaps. But some ICPs only support the second type. So you have try it by youself.
 
@@ -16,7 +16,7 @@ A simple tool to record your footprint using Django and ClustrMaps
 ```bash
 	git clone https://github.com/vra/travel_record.git
 ```
-2. Change the password and script:  
+2. Change the password and script:
 Including the 7th line in login/views.py:
 ```bash
 # file at REPO_ROOT/login/views.py, line 7
